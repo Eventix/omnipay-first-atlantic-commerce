@@ -1,0 +1,21 @@
+{
+    "name": "eventix/omnipay-first-atlantic-commerce",
+    "description": "First Atlantic Commerce V3 driver for the Omnipay PHP payment processing library",
+    "type": "library",
+    "require": {
+        "omnipay/common": "~3",
+        "ext-json": "*",
+        "league/iso3166": "~1.0.1",
+        "ext-simplexml": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris de Jong",
+            "email": "chris@eventix.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\FAC\\" : "src/" }
+    }
+}
