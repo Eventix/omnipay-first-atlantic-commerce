@@ -35,7 +35,7 @@ class PurchaseRequest extends AbstractFACRequest
                 'AcquirerId' => $this->getAquirerId(),
                 'Amount' => $this->formatAmount(),
                 'Currency' => $this->getCurrencyNumber(),
-                'CurrencyExponent' => 2,
+                'CurrencyExponent' => $this->getCurrencyExponent(),
                 'IPAddress' => $this->getClientIp(),
                 'MerchantId' => $this->getMerchantId(),
                 'OrderNumber' => $this->getOrderNumber(),

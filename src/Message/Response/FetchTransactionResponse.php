@@ -22,7 +22,7 @@ class FetchTransactionResponse extends AbstractFACResponse
      */
     public function isOpen()
     {
-        return !$this->isPaid();
+        return false;
     }
 
     /**

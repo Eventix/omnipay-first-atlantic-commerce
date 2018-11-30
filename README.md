@@ -1,8 +1,6 @@
 #omnipay-first-atlantic-commerce V3
 Only used in combination with hostedPaymentSolution
 
-Currencies are hardcoded currently supports USD and GTQ.
-
 ```php
 $gateway = Omnipay::create('FAC');
 $gateway->setMerchantId('xxxxx');
