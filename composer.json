@@ -5,6 +5,7 @@
     "require": {
         "omnipay/common": "~3",
         "ext-json": "*",
+        "ext-soap": "*",
         "league/iso3166": "~1.0.1",
         "ext-simplexml": "*"
     },
